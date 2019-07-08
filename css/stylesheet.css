@@ -1,29 +1,74 @@
-body {
-  font-size: 2rem;
+body, a{
+    background-color: #222022;
+    color: #ceccce;
+    font-family: Courier New;
 }
 
-a{
-  text-decoration: none;
-  color: black;
-}
-/**********
-Home header
-**********/
-header{
-  text-align: center;
-  margin: 1%
-}
 
+/**************
+Home page
+**************/
 #Home h1{
-  margin: 5% 1%;
-}
-/**********
-Home body
-**********/
-#Home {
-  text-align: center;
+    text-align: left;
+    font-size: 2.5em;
+    margin: 0;
 }
 
 #Home a{
-  text-align: center;
+}
+
+#Home nav{
+    text-align: center;
+}
+.navlink {
+    margin: 12em 1em 2em; 
+}
+nav a{
+    font-size: 4em;
+    
+}
+nav a,.Homelink a {
+    text-decoration: none;
+        
+}
+
+.Homelink{
+    text-align: center;
+}
+
+.Homelink a{
+    font-size: 2em;
+}
+
+
+
+/*********
+About
+*********/
+img{
+    display: block;
+    margin: auto;
+}
+
+#About p{
+    text-align: center;
+    font-size: 2em;
+}
+/**********
+WORK
+**********/
+#Work h2{
+    text-align: center;
+    font-size: 10em;
+    margin: 1.8em 0em;
+}
+/**********
+Contact
+**********/
+#Contact{
+    width: 80%;
+    margin: auto;
+}
+#Contact input{
+    width: 100%;
 }
